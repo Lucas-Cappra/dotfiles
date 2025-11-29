@@ -1,0 +1,519 @@
+[    0,0117] Loaded translation file for language pt-BR
+[    0,0128] PCSX2 v2.5.337-1-g2cba346ff5
+[    0,0129] Savestate version: 0x9a550000
+[    0,0129] 
+[    0,0129] 
+[    0,0129] Host Machine Init:
+[    0,0142]   Operating System = Arch Linux rolling
+[    0,0142]   Available RAM    = 3814 MB (3.73 GB)
+[    0,0142]   Physical RAM     = 5803 MB (5.67 GB)
+[    0,0143] 
+[    0,0143]   Processor        = Intel Core i5-3337U
+[    0,0143]   Core Count       = 2 cores
+[    0,0143]   Thread Count     = 4 threads
+[    0,0143]   Cluster Count    = 1 clusters
+[    0,0143] CPU Extensions Detected:
+[    0,0143]   AVX
+[    0,0143] 
+[    0,0185] SDLInputSource: Using Controller DB from resources.
+[    0,2287] Scanning /home/cappra/games/ps2 (recursively)
+[    0,8678] SDLInputSource: 716 gamepad mappings are loaded.
+[    0,9734] SDLInputSource: Gamepad 1 inserted
+[    1,0268] SDLInputSource: Opened gamepad 1 (instance id 1, player id 0): Twin PS2 Adapter
+[    1,0268] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[    1,0268] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[    1,5260] Loading BIOS...
+[    1,5262] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[    1,5305] BIOS rom1 module not found, skipping...
+[    1,5306] BIOS rom2 module not found, skipping...
+[    1,5306] Opening CDVD...
+[    1,5310] isoFile open ok: /home/cappra/games/ps2/Teenage Mutant Ninja Turtles (USA).iso
+[    1,5310]   Image type  = DVD
+[    1,5311]  * CDVD Disk Open: DVD, Single layer or unknown:
+[    1,5311]  * * Track 1: Data (Mode 1) (666032 sectors)
+[    1,5385] GameDB: Has not been initialized yet, initializing...
+[    1,6140] GameDB: 12838 games on record (loaded in 75,48ms)
+[    1,6140] Disc changed to Teenage Mutant Ninja Turtles (USA).iso.
+[    1,6141]   Name: Teenage Mutant Ninja Turtles
+[    1,6141]   Serial: SLUS-20716
+[    1,6141]   Version: 1.00
+[    1,6141]   CRC: F20A2A25
+[    1,6141] Applying settings...
+[    1,6196] Reopening memory cards...
+[    1,6197] McdSlot 0 [File]: Mcd001.ps2 [8 MB, UNFORMATTED]
+[    1,6197] McdSlot 1 [File]: Mcd002.ps2 [8 MB, UNFORMATTED]
+[    1,6199] HLE Host: Set 'host:' root path to: /home/cappra/games/ps2
+[    1,6200] 
+[    1,6200] EE/iR5900 Recompiler Reset
+[    2,0659] Opening GS...
+[    2,1520] (EnumerateGPUs) vkEnumeratePhysicalDevices (1) failed:  (-3: VK_ERROR_INITIALIZATION_FAILED)
+[    2,1563] Surface refresh rate: 60.056 hz
+[    2,1565] Loading EGL from libEGL.so...
+[    2,2479] GLAD EGL Version: 1.0
+[    2,2480] Using EGL platform EGL_EXT_platform_wayland.
+[    2,2636] eglInitialize() version: 1.5
+[    2,2638] GLAD EGL Version: 1.5
+[    2,2640] eglCreateContext() failed: 0x3009
+[    2,2642] eglCreateContext() failed: 0x3009
+[    2,2644] eglCreateContext() failed: 0x3009
+[    2,2645] eglCreateContext() failed: 0x3009
+[    2,2665] Got GL version 4.2
+[    2,2666] Negative swap interval/tear-control is NOT supported
+[    2,2741] GL: Intel GPU detected.
+[    2,2741] GL_VENDOR: Intel
+[    2,2741] GL_VERSION: 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[    2,2741] GL_RENDERER: Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[    2,2741] GL_SHADING_LANGUAGE_VERSION: 4.20
+[    2,2742] GL: Using hardware for point expansion, vertex expanding for line expansion and vertex expanding for sprite expansion.
+[    2,2753] 1 program binary formats supported by driver
+[    2,2754] Read 72 entries from '/home/cappra/.config/PCSX2/cache/gl_programs.idx'
+[    2,5649] OpenGL Graphics Driver Info:
+[    2,5649] OpenGL Context:
+[    2,5650] 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[    2,5650] Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[    2,5650] GLSL: 4.20
+[    2,5715] Opening SPU2...
+[    2,5718] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[    2,5845] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[    2,6052] Initializing Pad...
+[    2,6052] Initializing SIO2...
+[    2,6052] Initializing SIO0...
+[    2,6052] Opening DEV9...
+[    2,6100] Opening USB...
+[    2,6101] Opening FW...
+[    2,6193] VM subsystems initialized in 1093,47 ms
+[    2,6201] Failed to inhibit screen saver.
+[    2,6203] Failed to inhibit screen saver.
+[    2,9649] ELF Loading: cdrom0:\SLUS_207.16;1, Game CRC = F20A2A25, EntryPoint = 0x00100008
+[    4,5208] ELF cdrom0:\SLUS_207.16;1 with entry point at 0x00100008 is executing.
+[    4,5209] ELF changed, active CRC F20A2A25 (cdrom0:\SLUS_207.16;1)
+[    4,5212] Found 1 game patches in SLUS-20716_F20A2A25.pnach.
+[    4,5212] Applying core settings...
+[    4,5215] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[    4,5216] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[    4,5216] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[    4,5216] Updating CPU configuration...
+[    4,5349] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[    4,5416] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[    4,5573] Updating GS configuration...
+[    4,5993] EE/iR5900 Recompiler Reset
+[    5,5247] UpdateVSyncRate: Mode Changed to NTSC.
+[    5,5251] UpdateVSyncRate: Mode Changed to NTSC.
+[    5,5373] UpdateVSyncRate: Mode Changed to NTSC.
+[    5,5375] UpdateVSyncRate: Mode Changed to NTSC.
+[    5,9545] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[    6,4548] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[   20,6358] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[   31,4074] SDLInputSource: Gamepad 1 removed
+[   31,4078] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[   31,4334] SDLInputSource: Joystick 1 removed
+[   35,1501] SDLInputSource: Gamepad 3 inserted
+[   35,2035] SDLInputSource: Opened gamepad 3 (instance id 3, player id 0): Twin PS2 Adapter
+[   35,2036] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[   35,2036] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[   35,2040] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[   79,6905] (MapController) Map Pad1/Up to 'SDL-0/DPadUp'
+[   79,6905] (MapController) Map Pad1/Right to 'SDL-0/DPadRight'
+[   79,6905] (MapController) Map Pad1/Down to 'SDL-0/DPadDown'
+[   79,6906] (MapController) Map Pad1/Left to 'SDL-0/DPadLeft'
+[   79,6906] (MapController) Map Pad1/Triangle to 'SDL-0/FaceNorth'
+[   79,6906] (MapController) Map Pad1/Circle to 'SDL-0/FaceEast'
+[   79,6906] (MapController) Map Pad1/Cross to 'SDL-0/FaceSouth'
+[   79,6906] (MapController) Map Pad1/Square to 'SDL-0/FaceWest'
+[   79,6906] (MapController) Map Pad1/Select to 'SDL-0/Back'
+[   79,6906] (MapController) Map Pad1/Start to 'SDL-0/Start'
+[   79,6906] (MapController) Map Pad1/L1 to 'SDL-0/LeftShoulder'
+[   79,6906] (MapController) Map Pad1/L2 to 'SDL-0/+LeftTrigger'
+[   79,6906] (MapController) Map Pad1/R1 to 'SDL-0/RightShoulder'
+[   79,6907] (MapController) Map Pad1/R2 to 'SDL-0/+RightTrigger'
+[   79,6907] (MapController) Map Pad1/L3 to 'SDL-0/LeftStick'
+[   79,6907] (MapController) Map Pad1/R3 to 'SDL-0/RightStick'
+[   79,6907] (MapController) Map Pad1/Analog to 'SDL-0/Guide'
+[   79,6907] (MapController) Map Pad1/LUp to 'SDL-0/-LeftY'
+[   79,6907] (MapController) Map Pad1/LRight to 'SDL-0/+LeftX'
+[   79,6907] (MapController) Map Pad1/LDown to 'SDL-0/+LeftY'
+[   79,6907] (MapController) Map Pad1/LLeft to 'SDL-0/-LeftX'
+[   79,6907] (MapController) Map Pad1/RUp to 'SDL-0/-RightY'
+[   79,6907] (MapController) Map Pad1/RRight to 'SDL-0/+RightX'
+[   79,6908] (MapController) Map Pad1/RDown to 'SDL-0/+RightY'
+[   79,6908] (MapController) Map Pad1/RLeft to 'SDL-0/-RightX'
+[   79,6908] (MapController) Map Pad1/LargeMotor to 'SDL-0/LargeMotor'
+[   79,6908] (MapController) Map Pad1/SmallMotor to 'SDL-0/SmallMotor'
+[   79,6908] (MapController) Map Pad1/SmallMotor to 'SDL-0/SmallMotor'
+[   79,6908] (MapController) Map Pad1/LargeMotor to 'SDL-0/LargeMotor'
+[   79,6944] Applying settings...
+[   79,6957] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[   79,6957] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[   79,6957] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[   79,6982] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[   79,7136] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[   87,2873] (MapController) Map Pad2/Up to 'Keyboard/Up'
+[   87,2873] (MapController) Map Pad2/Right to 'Keyboard/Right'
+[   87,2874] (MapController) Map Pad2/Down to 'Keyboard/Down'
+[   87,2874] (MapController) Map Pad2/Left to 'Keyboard/Left'
+[   87,2874] (MapController) Map Pad2/Triangle to 'Keyboard/I'
+[   87,2874] (MapController) Map Pad2/Circle to 'Keyboard/L'
+[   87,2874] (MapController) Map Pad2/Cross to 'Keyboard/K'
+[   87,2874] (MapController) Map Pad2/Square to 'Keyboard/J'
+[   87,2874] (MapController) Map Pad2/Select to 'Keyboard/Backspace'
+[   87,2874] (MapController) Map Pad2/Start to 'Keyboard/Return'
+[   87,2874] (MapController) Map Pad2/L1 to 'Keyboard/Q'
+[   87,2874] (MapController) Map Pad2/L2 to 'Keyboard/1'
+[   87,2874] (MapController) Map Pad2/R1 to 'Keyboard/E'
+[   87,2874] (MapController) Map Pad2/R2 to 'Keyboard/3'
+[   87,2874] (MapController) Map Pad2/L3 to 'Keyboard/2'
+[   87,2874] (MapController) Map Pad2/R3 to 'Keyboard/4'
+[   87,2875] (MapController) Map Pad2/LUp to 'Keyboard/W'
+[   87,2875] (MapController) Map Pad2/LRight to 'Keyboard/D'
+[   87,2875] (MapController) Map Pad2/LDown to 'Keyboard/S'
+[   87,2875] (MapController) Map Pad2/LLeft to 'Keyboard/A'
+[   87,2875] (MapController) Map Pad2/RUp to 'Keyboard/T'
+[   87,2875] (MapController) Map Pad2/RRight to 'Keyboard/H'
+[   87,2875] (MapController) Map Pad2/RDown to 'Keyboard/G'
+[   87,2875] (MapController) Map Pad2/RLeft to 'Keyboard/F'
+[   87,3020] Applying settings...
+[   87,3031] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[   87,3032] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[   87,3032] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  169,8167] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[  202,4695] Applying settings...
+[  202,5105] [Unsafe Settings] A filtragem trilinear não está definida como automática. Isto pode quebrar a renderização em alguns jogos.
+[  202,5105] OSD [unsafe_settings_warning]:  A filtragem trilinear não está definida como automática. Isto pode quebrar a renderização em alguns jogos.
+[  202,5106] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  202,5106] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  202,5106] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  202,5106] Updating GS configuration...
+[  208,8726] Applying settings...
+[  208,9127] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  208,9127] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  208,9127] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  208,9127] Updating GS configuration...
+[  231,7359] Applying settings...
+[  231,7775] [Unsafe Settings] Graphics API is not set to Automatic. This may cause performance problems and graphical issues.
+[  231,7776] OSD [unsafe_settings_warning]:  Graphics API is not set to Automatic. This may cause performance problems and graphical issues.
+[  231,7776] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  231,7776] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  231,7777] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  231,7777] Updating GS configuration...
+[  231,7778] Reopening GS with new device
+[  231,7778] Applying settings...
+[  231,8013] Unloading EGL.
+[  231,8048] Surface refresh rate: 60.056 hz
+[  231,8048] Loading EGL from libEGL.so...
+[  231,8061] GLAD EGL Version: 1.0
+[  231,8061] Using EGL platform EGL_EXT_platform_wayland.
+[  231,8131] eglInitialize() version: 1.5
+[  231,8134] GLAD EGL Version: 1.5
+[  231,8136] eglCreateContext() failed: 0x3009
+[  231,8138] eglCreateContext() failed: 0x3009
+[  231,8140] eglCreateContext() failed: 0x3009
+[  231,8143] eglCreateContext() failed: 0x3009
+[  231,8172] Got GL version 4.2
+[  231,8173] Negative swap interval/tear-control is NOT supported
+[  231,8196] GL: Intel GPU detected.
+[  231,8197] GL_VENDOR: Intel
+[  231,8197] GL_VERSION: 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  231,8197] GL_RENDERER: Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  231,8197] GL_SHADING_LANGUAGE_VERSION: 4.20
+[  231,8198] GL: Using hardware for point expansion, vertex expanding for line expansion and vertex expanding for sprite expansion.
+[  231,8204] 1 program binary formats supported by driver
+[  231,8205] Read 98 entries from '/home/cappra/.config/PCSX2/cache/gl_programs.idx'
+[  231,9731] OpenGL Graphics Driver Info:
+[  231,9731] OpenGL Context:
+[  231,9732] 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  231,9732] Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  231,9732] GLSL: 4.20
+[  231,9798] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  231,9798] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  231,9798] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  236,3779] Applying settings...
+[  236,4288] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  236,4288] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  236,4289] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  236,4289] Updating GS configuration...
+[  236,4290] Reopening GS with new device
+[  236,4290] Applying settings...
+[  236,4388] Unloading EGL.
+[  236,4769] (EnumerateGPUs) vkEnumeratePhysicalDevices (1) failed:  (-3: VK_ERROR_INITIALIZATION_FAILED)
+[  236,4836] Surface refresh rate: 60.056 hz
+[  236,6400] (EnumerateGPUs) vkEnumeratePhysicalDevices (1) failed:  (-3: VK_ERROR_INITIALIZATION_FAILED)
+[  236,6401] ReportErrorAsync: Error: No physical devices found. Does your GPU and/or driver support Vulkan?
+[  236,6401] Failed to create GS device
+[  236,6974] OSD [GSReopenFailed]: Falhou em re-abrir, restaurando a configuração antiga.
+[  236,7011] Surface refresh rate: 60.056 hz
+[  236,7012] Loading EGL from libEGL.so...
+[  236,7022] GLAD EGL Version: 1.0
+[  236,7022] Using EGL platform EGL_EXT_platform_wayland.
+[  236,7270] eglInitialize() version: 1.5
+[  236,7271] GLAD EGL Version: 1.5
+[  236,7274] eglCreateContext() failed: 0x3009
+[  236,7277] eglCreateContext() failed: 0x3009
+[  236,7283] eglCreateContext() failed: 0x3009
+[  236,7286] eglCreateContext() failed: 0x3009
+[  236,7313] Got GL version 4.2
+[  236,7313] Negative swap interval/tear-control is NOT supported
+[  236,7341] GL: Intel GPU detected.
+[  236,7341] GL_VENDOR: Intel
+[  236,7341] GL_VERSION: 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  236,7341] GL_RENDERER: Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  236,7341] GL_SHADING_LANGUAGE_VERSION: 4.20
+[  236,7342] GL: Using hardware for point expansion, vertex expanding for line expansion and vertex expanding for sprite expansion.
+[  236,7349] 1 program binary formats supported by driver
+[  236,7350] Read 98 entries from '/home/cappra/.config/PCSX2/cache/gl_programs.idx'
+[  236,8994] OpenGL Graphics Driver Info:
+[  236,8994] OpenGL Context:
+[  236,8994] 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  236,8994] Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  236,8994] GLSL: 4.20
+[  236,9064] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  236,9064] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  236,9064] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  247,3794] Applying settings...
+[  247,4281] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  247,4281] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  247,4282] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  247,4282] Updating GS configuration...
+[  247,4283] Applying settings...
+[  247,4294] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  247,4294] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  247,4294] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  255,4626] (VMManager) Pausing...
+[  255,5138] ELF changed, active CRC 00000000 ()
+[  255,5153] Applying core settings...
+[  255,5158] Updating CPU configuration...
+[  255,5305] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[  255,5369] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[  255,5575] Updating GS configuration...
+[  255,9688] (VMManager) Resuming...
+[  255,9693] Failed to inhibit screen saver.
+[  255,9694] EE/iR5900 Recompiler Reset
+[  256,2663] ELF Loading: cdrom0:\SLUS_207.16;1, Game CRC = F20A2A25, EntryPoint = 0x00100008
+[  257,8195] ELF cdrom0:\SLUS_207.16;1 with entry point at 0x00100008 is executing.
+[  257,8195] ELF changed, active CRC F20A2A25 (cdrom0:\SLUS_207.16;1)
+[  257,8200] Found 1 game patches in SLUS-20716_F20A2A25.pnach.
+[  257,8201] Applying core settings...
+[  257,8204] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  257,8205] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  257,8205] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  257,8205] Updating CPU configuration...
+[  257,8337] Updating GS configuration...
+[  257,8737] EE/iR5900 Recompiler Reset
+[  258,7889] UpdateVSyncRate: Mode Changed to NTSC.
+[  258,7892] UpdateVSyncRate: Mode Changed to NTSC.
+[  258,8026] UpdateVSyncRate: Mode Changed to NTSC.
+[  258,8027] UpdateVSyncRate: Mode Changed to NTSC.
+[  259,2195] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[  259,7206] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[  259,7370] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[  259,7532] (VMManager) Pausing...
+[  264,4264] ELF changed, active CRC 00000000 ()
+[  264,4270] Applying core settings...
+[  264,4274] Updating CPU configuration...
+[  264,4274] EE/iR5900 Recompiler Reset
+[  264,4674] Updating GS configuration...
+[  264,5145] EE/iR5900 Recompiler Reset
+[  265,0667] (VMManager) Resuming...
+[  265,0674] Failed to inhibit screen saver.
+[  265,4379] ELF Loading: cdrom0:\SLUS_207.16;1, Game CRC = F20A2A25, EntryPoint = 0x00100008
+[  266,9845] ELF cdrom0:\SLUS_207.16;1 with entry point at 0x00100008 is executing.
+[  266,9846] ELF changed, active CRC F20A2A25 (cdrom0:\SLUS_207.16;1)
+[  266,9850] Found 1 game patches in SLUS-20716_F20A2A25.pnach.
+[  266,9851] Applying core settings...
+[  266,9856] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  266,9856] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  266,9856] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  266,9856] Updating CPU configuration...
+[  266,9994] Updating GS configuration...
+[  267,0539] EE/iR5900 Recompiler Reset
+[  267,6835] (VMManager) Pausing...
+[  270,8696] Add 259 seconds play time to SLUS-20716 -> now 434
+[  271,1603] Unloading EGL.
+[  271,1671] Scanning /home/cappra/games/ps2 (recursively)
+[  272,4630] Loading BIOS...
+[  272,4631] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[  272,4648] BIOS rom1 module not found, skipping...
+[  272,4648] BIOS rom2 module not found, skipping...
+[  272,4649] Opening CDVD...
+[  272,4651] isoFile open ok: /home/cappra/games/ps2/Teenage Mutant Ninja Turtles (USA).iso
+[  272,4651]   Image type  = DVD
+[  272,4651]  * CDVD Disk Open: DVD, Single layer or unknown:
+[  272,4651]  * * Track 1: Data (Mode 1) (666032 sectors)
+[  272,4680] Disc changed to Teenage Mutant Ninja Turtles (USA).iso.
+[  272,4680]   Name: Teenage Mutant Ninja Turtles
+[  272,4680]   Serial: SLUS-20716
+[  272,4680]   Version: 1.00
+[  272,4680]   CRC: F20A2A25
+[  272,4681] Applying settings...
+[  272,4693] Reopening memory cards...
+[  272,4694] McdSlot 0 [File]: Mcd001.ps2 [8 MB, UNFORMATTED]
+[  272,4694] McdSlot 1 [File]: Mcd002.ps2 [8 MB, UNFORMATTED]
+[  272,4698] HLE Host: Set 'host:' root path to: /home/cappra/games/ps2
+[  272,4698] 
+[  272,4700] EE/iR5900 Recompiler Reset
+[  272,7130] Opening GS...
+[  272,7143] Surface refresh rate: 60.056 hz
+[  272,7161] Loading EGL from libEGL.so...
+[  272,7172] GLAD EGL Version: 1.0
+[  272,7172] Using EGL platform EGL_EXT_platform_wayland.
+[  272,7220] eglInitialize() version: 1.5
+[  272,7221] GLAD EGL Version: 1.5
+[  272,7223] eglCreateContext() failed: 0x3009
+[  272,7224] eglCreateContext() failed: 0x3009
+[  272,7225] eglCreateContext() failed: 0x3009
+[  272,7227] eglCreateContext() failed: 0x3009
+[  272,7242] Got GL version 4.2
+[  272,7242] Negative swap interval/tear-control is NOT supported
+[  272,7269] GL: Intel GPU detected.
+[  272,7270] GL_VENDOR: Intel
+[  272,7270] GL_VERSION: 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  272,7270] GL_RENDERER: Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  272,7270] GL_SHADING_LANGUAGE_VERSION: 4.20
+[  272,7271] GL: Using hardware for point expansion, vertex expanding for line expansion and vertex expanding for sprite expansion.
+[  272,7280] 1 program binary formats supported by driver
+[  272,7281] Read 98 entries from '/home/cappra/.config/PCSX2/cache/gl_programs.idx'
+[  272,8388] OpenGL Graphics Driver Info:
+[  272,8388] OpenGL Context:
+[  272,8388] 4.2 (Core Profile) Mesa 25.2.7-arch1.1
+[  272,8388] Intel Mesa Intel(R) HD Graphics 4000 (IVB GT2)
+[  272,8388] GLSL: 4.20
+[  272,8426] Opening SPU2...
+[  272,8428] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[  272,8471] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[  272,8634] Initializing Pad...
+[  272,8634] Initializing SIO2...
+[  272,8634] Initializing SIO0...
+[  272,8635] Opening DEV9...
+[  272,8644] Opening USB...
+[  272,8644] Opening FW...
+[  272,8707] VM subsystems initialized in 407,92 ms
+[  272,8710] Failed to inhibit screen saver.
+[  272,8712] Failed to inhibit screen saver.
+[  273,1706] ELF Loading: cdrom0:\SLUS_207.16;1, Game CRC = F20A2A25, EntryPoint = 0x00100008
+[  274,7219] ELF cdrom0:\SLUS_207.16;1 with entry point at 0x00100008 is executing.
+[  274,7219] ELF changed, active CRC F20A2A25 (cdrom0:\SLUS_207.16;1)
+[  274,7227] Found 1 game patches in SLUS-20716_F20A2A25.pnach.
+[  274,7230] Applying core settings...
+[  274,7237] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  274,7237] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  274,7237] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  274,7237] Updating CPU configuration...
+[  274,7453] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[  274,7541] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[  274,7753] Updating GS configuration...
+[  274,8210] EE/iR5900 Recompiler Reset
+[  275,7587] UpdateVSyncRate: Mode Changed to NTSC.
+[  275,7590] UpdateVSyncRate: Mode Changed to NTSC.
+[  275,7714] UpdateVSyncRate: Mode Changed to NTSC.
+[  275,7716] UpdateVSyncRate: Mode Changed to NTSC.
+[  276,1884] Pad: DS2 Config Finished - P2/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[  276,6891] Pad: DS2 Config Finished - P1/S1 - AL: On - AB: Locked - VS: Normal - VL: Normal - RB: D (0x00000000)
+[  298,0767] SDLInputSource: Gamepad 3 removed
+[  298,0771] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  298,1000] SDLInputSource: Joystick 3 removed
+[  298,8233] SDLInputSource: Gamepad 4 inserted
+[  298,8767] SDLInputSource: Opened gamepad 4 (instance id 4, player id 0): Twin PS2 Adapter
+[  298,8767] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  298,8768] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  298,8771] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  318,1146] SDLInputSource: Gamepad 4 removed
+[  318,1149] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  318,1362] SDLInputSource: Joystick 4 removed
+[  318,9200] SDLInputSource: Gamepad 5 inserted
+[  318,9734] SDLInputSource: Opened gamepad 5 (instance id 5, player id 0): Twin PS2 Adapter
+[  318,9734] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  318,9734] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  318,9738] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  319,2646] SDLInputSource: Gamepad 5 removed
+[  319,2649] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  319,2833] SDLInputSource: Joystick 5 removed
+[  321,2933] SDLInputSource: Gamepad 6 inserted
+[  321,3467] SDLInputSource: Opened gamepad 6 (instance id 6, player id 0): Twin PS2 Adapter
+[  321,3468] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  321,3468] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  321,3471] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  328,7741] SDLInputSource: Gamepad 6 removed
+[  328,7746] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  328,8033] SDLInputSource: Joystick 6 removed
+[  332,6967] SDLInputSource: Gamepad 7 inserted
+[  332,7501] SDLInputSource: Opened gamepad 7 (instance id 7, player id 0): Twin PS2 Adapter
+[  332,7502] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  332,7502] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  332,7505] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  334,8775] SDLInputSource: Gamepad 7 removed
+[  334,8777] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  334,8933] SDLInputSource: Joystick 7 removed
+[  338,1467] SDLInputSource: Gamepad 8 inserted
+[  338,2000] SDLInputSource: Opened gamepad 8 (instance id 8, player id 0): Twin PS2 Adapter
+[  338,2001] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  338,2001] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  338,2005] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  338,9316] SDLInputSource: Gamepad 8 removed
+[  338,9318] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  338,9499] SDLInputSource: Joystick 8 removed
+[  339,2700] SDLInputSource: Gamepad 9 inserted
+[  339,3234] SDLInputSource: Opened gamepad 9 (instance id 9, player id 0): Twin PS2 Adapter
+[  339,3235] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  339,3235] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  339,3238] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  346,6586] SDLInputSource: Gamepad 9 removed
+[  346,6590] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  346,6733] SDLInputSource: Joystick 9 removed
+[  347,3234] SDLInputSource: Gamepad 10 inserted
+[  347,3768] SDLInputSource: Opened gamepad 10 (instance id 10, player id 0): Twin PS2 Adapter
+[  347,3768] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  347,3768] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  347,3773] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  351,2374] SDLInputSource: Gamepad 10 removed
+[  351,2377] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[  351,2534] SDLInputSource: Joystick 10 removed
+[  358,8200] SDLInputSource: Gamepad 11 inserted
+[  358,8734] SDLInputSource: Opened gamepad 11 (instance id 11, player id 0): Twin PS2 Adapter
+[  358,8734] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[  358,8735] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[  358,8740] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[  411,5902] Applying settings...
+[  411,5919] [Unsafe Settings] A taxa/pulo dos ciclos não está no padrão, isto pode causar um crash ou fazer os jogos rodarem muito lentos.
+[  411,5920] OSD [unsafe_settings_warning]:  A taxa/pulo dos ciclos não está no padrão, isto pode causar um crash ou fazer os jogos rodarem muito lentos.
+[  411,5920] GameDB: Enabled GS Hardware Fix: halfPixelOffset to [mode=2]
+[  411,5920] GameDB: Enabled GS Hardware Fix: nativeScaling to [mode=2]
+[  411,5920] GameDB: Enabled GS Hardware Fix: autoFlush to [mode=1]
+[  411,5920] Updating CPU configuration...
+[  411,6111] Creating Cubeb audio stream, sample rate = 48000, expansion = Disabled, buffer = 50, latency = 20, stretching enabled, driver = , device = 
+[  411,6220] Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+[  411,6449] EE/iR5900 Recompiler Reset
+[ 1141,5770] BIOS Found: USA     v02.20(10/02/2006)  Console 20060210-142424
+[ 1141,5923] (VMManager) Pausing...
+[ 1144,1479] OSD [SaveStateSlot1]: Salvando o state no slot 1...
+[ 1144,1893]   Saving SPU2
+[ 1144,1978]   Saving GS
+[ 1144,2369] (VMManager) Resuming...
+[ 1144,2379] Failed to inhibit screen saver.
+[ 1144,8694] OSD [SaveStateSlot1]: State salvo no slot 1.
+[ 1225,3105] SDLInputSource: Gamepad 11 removed
+[ 1225,3109] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[ 1225,3264] SDLInputSource: Joystick 11 removed
+[ 1232,2699] SDLInputSource: Gamepad 12 inserted
+[ 1232,3232] SDLInputSource: Opened gamepad 12 (instance id 12, player id 0): Twin PS2 Adapter
+[ 1232,3232] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[ 1232,3232] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[ 1232,3236] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[ 1236,5583] SDLInputSource: Gamepad 12 removed
+[ 1236,5586] OSD [controller_connected_SDL-0]: Controle SDL-0 desconectado.
+[ 1236,5764] SDLInputSource: Joystick 12 removed
+[ 1236,8832] SDLInputSource: Gamepad 13 inserted
+[ 1236,9366] SDLInputSource: Opened gamepad 13 (instance id 13, player id 0): Twin PS2 Adapter
+[ 1236,9366] SDLInputSource: Gamepad 0 has 4 axes and 12 buttons
+[ 1236,9366] SDLInputSource: Rumble is supported on 'Twin PS2 Adapter' via gamepad
+[ 1236,9370] OSD [controller_connected_SDL-0]: Controle SDL-0 conectado.
+[ 1244,6542] (VMManager) Pausing...
+[ 1247,9562] OSD [SaveStateSlot1]: Salvando o state no slot 1...
+[ 1247,9980]   Saving SPU2
+[ 1248,0060]   Saving GS
+[ 1248,0436] Creating save state backup /home/cappra/.config/PCSX2/sstates/SLUS-20716 (F20A2A25).01.p2s.backup...
+[ 1248,0438] (VMManager) Resuming...
+[ 1248,0443] Failed to inhibit screen saver.
+[ 1248,5909] OSD [SaveStateSlot1]: State salvo no slot 1.
+[ 1249,9124] (VMManager) Pausing...
+[ 1255,5785] Add 971 seconds play time to SLUS-20716 -> now 1405
+[ 1255,8091] Unloading EGL.
+[ 1255,9091] Releasing host memory for virtual systems...

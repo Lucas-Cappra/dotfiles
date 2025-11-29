@@ -1,0 +1,16 @@
+11/27/2025, 4:02:36 PM GMT-3 0: 
+
+----------------------------------------------
+11/27/2025, 4:02:36 PM GMT-3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.116"}, modulepath: /home/cappra/.config/discord/0.0.116/modules
+11/27/2025, 4:02:36 PM GMT-3 2: ✅ webContents.created web1 "index.html"
+11/27/2025, 4:02:36 PM GMT-3 3: ✅ window.created win1 "discord"
+11/27/2025, 4:02:37 PM GMT-3 4: ✅ webContents.did-finish-load web1
+11/27/2025, 4:02:57 PM GMT-3 5: ✅ webContents.created web2 ""
+11/27/2025, 4:02:57 PM GMT-3 6: ✅ window.created win2 "Discord"
+11/27/2025, 4:02:59 PM GMT-3 7: ✅ webContents.did-finish-load web2
+11/27/2025, 4:03:01 PM GMT-3 8: window.close win1
+11/27/2025, 4:03:01 PM GMT-3 9: webContents.destroyed web1
+11/27/2025, 4:03:01 PM GMT-3 10: window.closed win1
+11/27/2025, 4:12:57 PM GMT-3 11: window.close win2
+11/27/2025, 4:13:01 PM GMT-3 12: before-quit
+11/27/2025, 4:13:02 PM GMT-3 13: window.close win2

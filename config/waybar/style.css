@@ -1,0 +1,28 @@
+* {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+window#waybar {
+    background: rgba(30, 30, 30, 0.8);
+    padding: 0 6px;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    background: transparent;
+    color: white;
+}
+
+#workspaces button.active {
+    background: #5f5fff;
+}
+
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#custom-power {
+    padding: 0 10px;
+}

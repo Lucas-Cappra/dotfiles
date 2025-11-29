@@ -1,0 +1,8 @@
+2025/11/27-16:02:36.376 6ed Creating DB /home/cappra/.config/discord/Local Storage/leveldb since it was missing.
+2025/11/27-16:02:36.395 6ed Reusing MANIFEST /home/cappra/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/11/27-16:08:23.579 6ed Level-0 table #5: started
+2025/11/27-16:08:23.581 6ed Level-0 table #5: 48440 bytes OK
+2025/11/27-16:08:23.584 6ed Delete type=0 #3
+2025/11/27-16:12:04.156 6ed Level-0 table #7: started
+2025/11/27-16:12:04.217 6ed Level-0 table #7: 3560948 bytes OK
+2025/11/27-16:12:04.220 6ed Delete type=0 #4
