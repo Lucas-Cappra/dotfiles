@@ -1,0 +1,10 @@
+config/discord/
+config/Code - OSS/
+config/steam/
+config/mpv/watch_later/
+config/*/cache/
+config/*/Cache/
+config/*/GPUCache/
+*.log
+*.temp
+*.tmp
